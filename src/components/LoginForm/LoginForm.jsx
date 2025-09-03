@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { usePasswordVisibility } from "../../hooks/usePasswordVisibility";
-import "./LoginForm.css";
+import "../styles.css"
 
 export const LoginForm = () => {
 	const [formData, setFormData] = useState({
