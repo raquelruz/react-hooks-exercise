@@ -4,6 +4,7 @@ import { Counter } from "./components/Counter/Counter";
 import { useWindowWidth } from "./hooks/useWindowWidth";
 import { WindowInfo } from "./components/WindowInfo/WindowInfo";
 import { PokemonFetch } from "./components/PokemonFetch/PokemonFetch";
+import { DeviceInfo } from "./components/DeviceInfo/DeviceInfo";
 
 export const App = () => {
 	const width = useWindowWidth();
@@ -25,6 +26,10 @@ export const App = () => {
 
 			<div>
 				<PokemonFetch />
+			</div>
+
+			<div>
+				<DeviceInfo />
 			</div>
 		</>
 	);

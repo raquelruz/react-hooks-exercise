@@ -1,0 +1,21 @@
+.device-container {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.3s ease;
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+.device-container.mobile {
+	background-color: #fce4ec; 
+}
+
+.device-container.tablet {
+	background-color: #ffe0b2; 
+}
+
+.device-container.desktop {
+	background-color: #90caf9;
+}
