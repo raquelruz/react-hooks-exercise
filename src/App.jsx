@@ -5,6 +5,7 @@ import { useWindowWidth } from "./hooks/useWindowWidth";
 import { WindowInfo } from "./components/WindowInfo/WindowInfo";
 import { PokemonFetch } from "./components/PokemonFetch/PokemonFetch";
 import { DeviceInfo } from "./components/DeviceInfo/DeviceInfo";
+import { LayoutSwitcher } from "./components/LayoutSwitcher/LayoutSwitcher";
 
 export const App = () => {
 	const width = useWindowWidth();
@@ -30,6 +31,10 @@ export const App = () => {
 
 			<div>
 				<DeviceInfo />
+			</div>
+
+			<div>
+				<LayoutSwitcher />
 			</div>
 		</>
 	);

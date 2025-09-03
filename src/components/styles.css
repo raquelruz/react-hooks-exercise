@@ -102,11 +102,11 @@
 }
 
 .mobile {
-	background-color: #fce4ec; 
+	background-color: #fce4ec;
 }
 
 .desktop {
-	background-color: #e3f2fd; 
+	background-color: #e3f2fd;
 }
 
 .pokemon-container {
@@ -174,13 +174,42 @@
 }
 
 .device-container.mobile {
-	background-color: #fce4ec; 
+	background-color: #fce4ec;
 }
 
 .device-container.tablet {
-	background-color: #ffe0b2; 
+	background-color: #ffe0b2;
 }
 
 .device-container.desktop {
 	background-color: #90caf9;
+}
+
+.layout-switcher-container {
+	padding: 20px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	gap: 15px;
+	margin-top: 20px;
+}
+
+.card {
+	height: 120px;
+	background-color: #90caf9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	transition: transform 0.2s;
+}
+
+.card:hover {
+	transform: scale(1.05);
 }
